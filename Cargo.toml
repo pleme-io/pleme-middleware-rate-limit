@@ -1,0 +1,19 @@
+[package]
+name = "pleme-middleware-rate-limit"
+version = "0.1.0"
+edition = "2021"
+authors = ["Pleme Team"]
+license = "MIT"
+description = "Rate limiting middleware for Axum web services"
+repository = "https://github.com/pleme-io/pleme-middleware-rate-limit"
+homepage = "https://github.com/pleme-io/pleme-middleware-rate-limit"
+readme = "README.md"
+
+[dependencies]
+tokio = { version = "1.41", features = ["sync", "time"] }
+axum = { version = "0.8", features = ["macros"] }
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"
+tracing = "0.1"
+
+
