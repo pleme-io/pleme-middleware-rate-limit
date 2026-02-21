@@ -8,6 +8,8 @@ description = "Rate limiting middleware for Axum web services"
 repository = "https://github.com/pleme-io/pleme-middleware-rate-limit"
 homepage = "https://github.com/pleme-io/pleme-middleware-rate-limit"
 readme = "README.md"
+keywords = ["rate-limiting", "middleware", "axum", "token-bucket"]
+categories = ["web-programming"]
 
 [dependencies]
 tokio = { version = "1.41", features = ["sync", "time"] }
